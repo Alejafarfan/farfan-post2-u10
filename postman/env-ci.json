@@ -1,16 +1,12 @@
 {
-	"id": "2b976ad8-362b-48e4-840f-658214ea55c0",
-	"name": "ToDoApp-CI",
-	"values": [
-		{
-			"key": "baseUrl ",
-			"value": "",
-			"type": "default",
-			"enabled": true
-		}
-	],
-	"color": null,
-	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2026-05-12T04:51:01.880Z",
-	"_postman_exported_using": "Postman/12.6.8"
+  "id": "env-ci",
+  "name": "ToDoApp-CI",
+  "values": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment"
 }
