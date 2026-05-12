@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Nueva Tarea</title>
+</head>
+<body>
+<h1>Nueva Tarea</h1>
+<form action="/tareas/nueva" method="post">
+    <input id="titulo" name="titulo" type="text" placeholder="Título"/>
+    <input id="descripcion" name="descripcion" type="text" placeholder="Descripción"/>
+    <button id="btn-guardar" type="submit">Guardar</button>
+</form>
+<p id="mensaje-exito" style="display:none">Tarea creada exitosamente</p>
+</body>
+</html>
